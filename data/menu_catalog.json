@@ -1,0 +1,2037 @@
+[
+  {
+    "code": "H1",
+    "name": "Fried Chicken Wings (4)",
+    "category": "HOUSE SPECIALTIES",
+    "spicy": false,
+    "variants": {
+      "plain": 8.55,
+      "french fries": 10.95,
+      "fried rice": 10.95,
+      "pork fried rice": 11.55,
+      "chicken fried rice": 11.55,
+      "shrimp fried rice": 11.95,
+      "beef fried rice": 11.95,
+      "house special fried rice": 13.85,
+      "plain lo mein": 11.55,
+      "mixed vegetable": 12.25,
+      "chicken lo mein": 12.25,
+      "pork lo mein": 12.25,
+      "shrimp lo mein": 13.05,
+      "beef lo mein": 13.05,
+      "house special lo mein": 14.25,
+      "vegetable fried rice": 10.95
+    }
+  },
+  {
+    "code": "H2",
+    "name": "Honey Wings (4)",
+    "category": "HOUSE SPECIALTIES",
+    "spicy": false,
+    "variants": {
+      "plain": 8.95,
+      "french fries": 11.25,
+      "fried rice": 11.25,
+      "pork fried rice": 11.55,
+      "chicken fried rice": 11.55,
+      "shrimp fried rice": 12.95,
+      "beef fried rice": 12.95
+    }
+  },
+  {
+    "code": "H5",
+    "name": "Fried Scallops (10)",
+    "category": "HOUSE SPECIALTIES",
+    "spicy": false,
+    "variants": {
+      "plain": 8.25,
+      "french fries": 9.95,
+      "fried rice": 9.95,
+      "pork fried rice": 10.95,
+      "chicken fried rice": 10.95,
+      "shrimp fried rice": 11.95,
+      "beef fried rice": 11.95
+    }
+  },
+  {
+    "code": "1",
+    "name": "Egg Roll",
+    "category": "APPETIZERS",
+    "spicy": false,
+    "variants": {
+      "regular": 2.2
+    }
+  },
+  {
+    "code": "2",
+    "name": "Shrimp Roll",
+    "category": "APPETIZERS",
+    "spicy": false,
+    "variants": {
+      "regular": 2.5
+    }
+  },
+  {
+    "code": "3",
+    "name": "Fried Dumpling (7)",
+    "category": "APPETIZERS",
+    "spicy": false,
+    "variants": {
+      "regular": 8.95
+    }
+  },
+  {
+    "code": "3",
+    "name": "Steamed Dumpling (7)",
+    "category": "APPETIZERS",
+    "spicy": false,
+    "variants": {
+      "regular": 8.95
+    }
+  },
+  {
+    "code": "4",
+    "name": "Steak & Cheese Egg Roll",
+    "category": "APPETIZERS",
+    "spicy": false,
+    "variants": {
+      "regular": 3.35
+    }
+  },
+  {
+    "code": "5",
+    "name": "Teriyaki Chicken (5)",
+    "category": "APPETIZERS",
+    "spicy": false,
+    "variants": {
+      "regular": 8.95
+    }
+  },
+  {
+    "code": "7",
+    "name": "Crabmeat Rangoon (10)",
+    "category": "APPETIZERS",
+    "spicy": false,
+    "variants": {
+      "regular": 8.95
+    }
+  },
+  {
+    "code": "9",
+    "name": "Boneless Spare Ribs",
+    "category": "APPETIZERS",
+    "spicy": false,
+    "variants": {
+      "small": 8.55,
+      "large": 13.55
+    }
+  },
+  {
+    "code": "10",
+    "name": "French Fries",
+    "category": "APPETIZERS",
+    "spicy": false,
+    "variants": {
+      "small": 4.95,
+      "large": 6.95
+    }
+  },
+  {
+    "code": "11",
+    "name": "Chicken Nugget (10)",
+    "category": "APPETIZERS",
+    "spicy": false,
+    "variants": {
+      "regular": 6.25
+    }
+  },
+  {
+    "code": "12",
+    "name": "Pu Pu Platter (For 2)",
+    "category": "APPETIZERS",
+    "spicy": false,
+    "variants": {
+      "regular": 13.95
+    }
+  },
+  {
+    "code": "13",
+    "name": "Fried Bread",
+    "category": "APPETIZERS",
+    "spicy": false,
+    "variants": {
+      "regular": 5.25
+    }
+  },
+  {
+    "code": "14",
+    "name": "Spring Roll (2)",
+    "category": "APPETIZERS",
+    "spicy": false,
+    "variants": {
+      "regular": 3.0
+    }
+  },
+  {
+    "code": "15",
+    "name": "Chicken Nugget with French Fries",
+    "category": "APPETIZERS",
+    "spicy": false,
+    "variants": {
+      "regular": 9.85
+    }
+  },
+  {
+    "code": "13",
+    "name": "Wonton Soup",
+    "category": "SOUP",
+    "spicy": false,
+    "variants": {
+      "pt": 4.55,
+      "qt": 6.25
+    }
+  },
+  {
+    "code": "14",
+    "name": "Egg Drop Soup",
+    "category": "SOUP",
+    "spicy": false,
+    "variants": {
+      "pt": 4.55,
+      "qt": 6.25
+    }
+  },
+  {
+    "code": "15",
+    "name": "Chicken Rice Soup",
+    "category": "SOUP",
+    "spicy": false,
+    "variants": {
+      "pt": 4.55,
+      "qt": 6.25
+    }
+  },
+  {
+    "code": "15",
+    "name": "Chicken Noodle Soup",
+    "category": "SOUP",
+    "spicy": false,
+    "variants": {
+      "pt": 4.55,
+      "qt": 6.25
+    }
+  },
+  {
+    "code": "16",
+    "name": "Wonton Egg Drop Soup",
+    "category": "SOUP",
+    "spicy": false,
+    "variants": {
+      "pt": 5.25,
+      "qt": 6.55
+    }
+  },
+  {
+    "code": "17",
+    "name": "Vegetable Soup",
+    "category": "SOUP",
+    "spicy": false,
+    "variants": {
+      "regular": 7.55
+    }
+  },
+  {
+    "code": "18",
+    "name": "Hot & Sour Soup",
+    "category": "SOUP",
+    "spicy": true,
+    "variants": {
+      "pt": 5.95,
+      "qt": 7.25
+    }
+  },
+  {
+    "code": "19",
+    "name": "House Special Soup",
+    "category": "SOUP",
+    "spicy": false,
+    "variants": {
+      "regular": 10.25
+    }
+  },
+  {
+    "code": "20",
+    "name": "Roast Pork Egg Foo Young",
+    "category": "EGG FOO YOUNG",
+    "spicy": false,
+    "variants": {
+      "regular": 12.95
+    }
+  },
+  {
+    "code": "21",
+    "name": "Chicken Egg Foo Young",
+    "category": "EGG FOO YOUNG",
+    "spicy": false,
+    "variants": {
+      "regular": 12.95
+    }
+  },
+  {
+    "code": "22",
+    "name": "Beef Egg Foo Young",
+    "category": "EGG FOO YOUNG",
+    "spicy": false,
+    "variants": {
+      "regular": 12.95
+    }
+  },
+  {
+    "code": "23",
+    "name": "Shrimp Egg Foo Young",
+    "category": "EGG FOO YOUNG",
+    "spicy": false,
+    "variants": {
+      "regular": 12.95
+    }
+  },
+  {
+    "code": "25",
+    "name": "House Special Egg Foo Young",
+    "category": "EGG FOO YOUNG",
+    "spicy": false,
+    "variants": {
+      "regular": 12.95
+    }
+  },
+  {
+    "code": "26",
+    "name": "Vegetable Egg Foo Young",
+    "category": "EGG FOO YOUNG",
+    "spicy": false,
+    "variants": {
+      "regular": 12.95
+    }
+  },
+  {
+    "code": "33",
+    "name": "Plain Fried Rice",
+    "category": "FRIED RICE",
+    "spicy": false,
+    "variants": {
+      "pt": 5.75,
+      "qt": 7.55
+    }
+  },
+  {
+    "code": "34",
+    "name": "Roast Pork Fried Rice",
+    "category": "FRIED RICE",
+    "spicy": false,
+    "variants": {
+      "pt": 8.25,
+      "qt": 10.55
+    }
+  },
+  {
+    "code": "35",
+    "name": "Chicken Fried Rice",
+    "category": "FRIED RICE",
+    "spicy": false,
+    "variants": {
+      "pt": 8.25,
+      "qt": 10.55
+    }
+  },
+  {
+    "code": "36",
+    "name": "Beef Fried Rice",
+    "category": "FRIED RICE",
+    "spicy": false,
+    "variants": {
+      "pt": 9.25,
+      "qt": 11.85
+    }
+  },
+  {
+    "code": "37",
+    "name": "Shrimp Fried Rice",
+    "category": "FRIED RICE",
+    "spicy": false,
+    "variants": {
+      "pt": 9.25,
+      "qt": 11.85
+    }
+  },
+  {
+    "code": "38",
+    "name": "Vegetable Fried Rice",
+    "category": "FRIED RICE",
+    "spicy": false,
+    "variants": {
+      "pt": 8.25,
+      "qt": 10.55
+    }
+  },
+  {
+    "code": "39",
+    "name": "Egg Fried Rice",
+    "category": "FRIED RICE",
+    "spicy": false,
+    "variants": {
+      "pt": 8.25,
+      "qt": 10.55
+    }
+  },
+  {
+    "code": "40",
+    "name": "House Special Fried Rice",
+    "category": "FRIED RICE",
+    "spicy": false,
+    "variants": {
+      "pt": 9.85,
+      "qt": 12.55
+    }
+  },
+  {
+    "code": "41",
+    "name": "Roast Pork Lo Mein",
+    "category": "LO MEIN",
+    "spicy": false,
+    "variants": {
+      "pt": 8.75,
+      "qt": 11.55
+    }
+  },
+  {
+    "code": "42",
+    "name": "Chicken Lo Mein",
+    "category": "LO MEIN",
+    "spicy": false,
+    "variants": {
+      "pt": 8.75,
+      "qt": 11.55
+    }
+  },
+  {
+    "code": "43",
+    "name": "Beef Lo Mein",
+    "category": "LO MEIN",
+    "spicy": false,
+    "variants": {
+      "pt": 9.25,
+      "qt": 12.25
+    }
+  },
+  {
+    "code": "44",
+    "name": "Shrimp Lo Mein",
+    "category": "LO MEIN",
+    "spicy": false,
+    "variants": {
+      "pt": 9.25,
+      "qt": 12.25
+    }
+  },
+  {
+    "code": "45",
+    "name": "Vegetable Lo Mein",
+    "category": "LO MEIN",
+    "spicy": false,
+    "variants": {
+      "pt": 8.75,
+      "qt": 11.55
+    }
+  },
+  {
+    "code": "46",
+    "name": "House Special Lo Mein",
+    "category": "LO MEIN",
+    "spicy": false,
+    "variants": {
+      "pt": 9.75,
+      "qt": 12.85
+    }
+  },
+  {
+    "code": "47",
+    "name": "Plain Lo Mein",
+    "category": "LO MEIN",
+    "spicy": false,
+    "variants": {
+      "pt": 6.75,
+      "qt": 9.25
+    }
+  },
+  {
+    "code": "48",
+    "name": "Chicken Chow Mein",
+    "category": "CHOW MEIN",
+    "spicy": false,
+    "variants": {
+      "pt": 8.55,
+      "qt": 11.55
+    }
+  },
+  {
+    "code": "49",
+    "name": "Roast Pork Chow Mein",
+    "category": "CHOW MEIN",
+    "spicy": false,
+    "variants": {
+      "pt": 8.55,
+      "qt": 11.55
+    }
+  },
+  {
+    "code": "50",
+    "name": "Beef Chow Mein",
+    "category": "CHOW MEIN",
+    "spicy": false,
+    "variants": {
+      "pt": 9.25,
+      "qt": 12.25
+    }
+  },
+  {
+    "code": "51",
+    "name": "Shrimp Chow Mein",
+    "category": "CHOW MEIN",
+    "spicy": false,
+    "variants": {
+      "pt": 9.25,
+      "qt": 12.25
+    }
+  },
+  {
+    "code": "52",
+    "name": "Vegetable Chow Mein",
+    "category": "CHOW MEIN",
+    "spicy": false,
+    "variants": {
+      "pt": 8.55,
+      "qt": 11.55
+    }
+  },
+  {
+    "code": "53",
+    "name": "House Special Chow Mein",
+    "category": "CHOW MEIN",
+    "spicy": false,
+    "variants": {
+      "pt": 9.55,
+      "qt": 12.55
+    }
+  },
+  {
+    "code": "55",
+    "name": "Roast Pork W. Broccoli",
+    "category": "PORK",
+    "spicy": false,
+    "variants": {
+      "pt": 8.95,
+      "qt": 12.25
+    }
+  },
+  {
+    "code": "56",
+    "name": "Roast Pork W. Mushroom",
+    "category": "PORK",
+    "spicy": false,
+    "variants": {
+      "pt": 8.95,
+      "qt": 12.25
+    }
+  },
+  {
+    "code": "57",
+    "name": "Roast Pork W. Snow Peas",
+    "category": "PORK",
+    "spicy": false,
+    "variants": {
+      "pt": 8.95,
+      "qt": 12.25
+    }
+  },
+  {
+    "code": "58",
+    "name": "Roast Pork W. Mixed Veg",
+    "category": "PORK",
+    "spicy": false,
+    "variants": {
+      "pt": 8.95,
+      "qt": 12.25
+    }
+  },
+  {
+    "code": "61",
+    "name": "Vegetable Delight",
+    "category": "VEGETABLE PLATES",
+    "spicy": false,
+    "variants": {
+      "regular": 10.95
+    }
+  },
+  {
+    "code": "63",
+    "name": "Bean Curd Szechuan Style (No Meat)",
+    "category": "VEGETABLE PLATES",
+    "spicy": true,
+    "variants": {
+      "regular": 10.95
+    }
+  },
+  {
+    "code": "64",
+    "name": "Broccoli W. Garlic Sauce",
+    "category": "VEGETABLE PLATES",
+    "spicy": true,
+    "variants": {
+      "regular": 10.95
+    }
+  },
+  {
+    "code": "65",
+    "name": "Mixed Vegetable W. Garlic Sauce",
+    "category": "VEGETABLE PLATES",
+    "spicy": true,
+    "variants": {
+      "small": 10.95
+    }
+  },
+  {
+    "code": "66",
+    "name": "Plain Sauteed Broccoli",
+    "category": "VEGETABLE PLATES",
+    "spicy": false,
+    "variants": {
+      "regular": 10.95
+    }
+  },
+  {
+    "code": "71",
+    "name": "Vegetable Chow Mei Fun",
+    "category": "CHOW MEI FUN",
+    "spicy": false,
+    "variants": {
+      "regular": 12.25
+    }
+  },
+  {
+    "code": "71",
+    "name": "Pork Chow Mei Fun",
+    "category": "CHOW MEI FUN",
+    "spicy": false,
+    "variants": {
+      "regular": 12.25
+    }
+  },
+  {
+    "code": "72",
+    "name": "Chicken Chow Mei Fun",
+    "category": "CHOW MEI FUN",
+    "spicy": false,
+    "variants": {
+      "regular": 12.55
+    }
+  },
+  {
+    "code": "72",
+    "name": "Beef Chow Mei Fun",
+    "category": "CHOW MEI FUN",
+    "spicy": false,
+    "variants": {
+      "regular": 12.55
+    }
+  },
+  {
+    "code": "73",
+    "name": "Shrimp Chow Mei Fun",
+    "category": "CHOW MEI FUN",
+    "spicy": false,
+    "variants": {
+      "regular": 12.55
+    }
+  },
+  {
+    "code": "74",
+    "name": "House Special Chow Mei Fun",
+    "category": "CHOW MEI FUN",
+    "spicy": false,
+    "variants": {
+      "regular": 13.25
+    }
+  },
+  {
+    "code": null,
+    "name": "Steamed Rice",
+    "category": "SIDE ORDERS",
+    "spicy": false,
+    "variants": {
+      "pt": 3.55,
+      "qt": 4.75
+    }
+  },
+  {
+    "code": null,
+    "name": "Fortune Cookies (2)",
+    "category": "SIDE ORDERS",
+    "spicy": false,
+    "variants": {
+      "regular": 0.5
+    }
+  },
+  {
+    "code": null,
+    "name": "Fried Noodles (1)",
+    "category": "SIDE ORDERS",
+    "spicy": false,
+    "variants": {
+      "regular": 1.0
+    }
+  },
+  {
+    "code": "76",
+    "name": "Chicken W. Cashew Nuts",
+    "category": "POULTRY",
+    "spicy": false,
+    "variants": {
+      "pt": 8.75,
+      "qt": 12.95
+    }
+  },
+  {
+    "code": "77",
+    "name": "Chicken W. Snow Pea Pods",
+    "category": "POULTRY",
+    "spicy": false,
+    "variants": {
+      "pt": 8.75,
+      "qt": 12.95
+    }
+  },
+  {
+    "code": "78",
+    "name": "Moo Goo Gai Pan",
+    "category": "POULTRY",
+    "spicy": false,
+    "variants": {
+      "pt": 8.75,
+      "qt": 12.95
+    }
+  },
+  {
+    "code": "79",
+    "name": "Chicken W. Broccoli",
+    "category": "POULTRY",
+    "spicy": false,
+    "variants": {
+      "pt": 8.75,
+      "qt": 12.95
+    }
+  },
+  {
+    "code": "80",
+    "name": "Chicken W. Curry Sauce",
+    "category": "POULTRY",
+    "spicy": true,
+    "variants": {
+      "pt": 8.75,
+      "qt": 12.95
+    }
+  },
+  {
+    "code": "81",
+    "name": "Chicken W. Mixed Vegs",
+    "category": "POULTRY",
+    "spicy": false,
+    "variants": {
+      "pt": 8.75,
+      "qt": 12.95
+    }
+  },
+  {
+    "code": "82",
+    "name": "Beef W. Snow Peas",
+    "category": "BEEF",
+    "spicy": false,
+    "variants": {
+      "pt": 9.55,
+      "qt": 13.65
+    }
+  },
+  {
+    "code": "83",
+    "name": "Beef W. Broccoli",
+    "category": "BEEF",
+    "spicy": false,
+    "variants": {
+      "pt": 9.55,
+      "qt": 13.65
+    }
+  },
+  {
+    "code": "84",
+    "name": "Pepper Steak W. Onion",
+    "category": "BEEF",
+    "spicy": false,
+    "variants": {
+      "pt": 9.55,
+      "qt": 13.65
+    }
+  },
+  {
+    "code": "86",
+    "name": "Curry Beef",
+    "category": "BEEF",
+    "spicy": true,
+    "variants": {
+      "pt": 9.55,
+      "qt": 13.65
+    }
+  },
+  {
+    "code": "87",
+    "name": "Beef W. Mushroom",
+    "category": "BEEF",
+    "spicy": false,
+    "variants": {
+      "pt": 9.55,
+      "qt": 13.65
+    }
+  },
+  {
+    "code": "88",
+    "name": "Beef W. Cashew Nuts",
+    "category": "BEEF",
+    "spicy": false,
+    "variants": {
+      "pt": 9.55,
+      "qt": 13.65
+    }
+  },
+  {
+    "code": "89",
+    "name": "Beef W. Mixed Vegetable",
+    "category": "BEEF",
+    "spicy": false,
+    "variants": {
+      "pt": 9.55,
+      "qt": 13.65
+    }
+  },
+  {
+    "code": "91",
+    "name": "Shrimp W. Lobster Sauce",
+    "category": "SEAFOOD",
+    "spicy": false,
+    "variants": {
+      "pt": 9.55,
+      "qt": 13.65
+    }
+  },
+  {
+    "code": "92",
+    "name": "Shrimp W. Broccoli",
+    "category": "SEAFOOD",
+    "spicy": false,
+    "variants": {
+      "pt": 9.55,
+      "qt": 13.65
+    }
+  },
+  {
+    "code": "93",
+    "name": "Shrimp W. Mixed Chinese Veg",
+    "category": "SEAFOOD",
+    "spicy": false,
+    "variants": {
+      "pt": 9.55,
+      "qt": 13.65
+    }
+  },
+  {
+    "code": "94",
+    "name": "Shrimp W. Snow Pea Pods",
+    "category": "SEAFOOD",
+    "spicy": false,
+    "variants": {
+      "pt": 9.55,
+      "qt": 13.65
+    }
+  },
+  {
+    "code": "95",
+    "name": "Curry Shrimp",
+    "category": "SEAFOOD",
+    "spicy": true,
+    "variants": {
+      "pt": 9.55,
+      "qt": 13.65
+    }
+  },
+  {
+    "code": "96",
+    "name": "Shrimp W. Cashew Nuts",
+    "category": "SEAFOOD",
+    "spicy": false,
+    "variants": {
+      "pt": 9.55,
+      "qt": 13.65
+    }
+  },
+  {
+    "code": "97",
+    "name": "Kung Pao Shrimp",
+    "category": "SEAFOOD",
+    "spicy": true,
+    "variants": {
+      "pt": 9.55,
+      "qt": 13.65
+    }
+  },
+  {
+    "code": "98",
+    "name": "Sweet & Sour Chicken",
+    "category": "SWEET & SOUR",
+    "spicy": false,
+    "variants": {
+      "pt": 8.95,
+      "qt": 13.25
+    }
+  },
+  {
+    "code": "100",
+    "name": "Sweet & Sour Shrimp",
+    "category": "SWEET & SOUR",
+    "spicy": false,
+    "variants": {
+      "pt": 9.25,
+      "qt": 13.55
+    }
+  },
+  {
+    "code": "101",
+    "name": "Sweet & Sour Sam Bo",
+    "category": "SWEET & SOUR",
+    "spicy": false,
+    "variants": {
+      "pt": 9.55,
+      "qt": 13.55
+    }
+  },
+  {
+    "code": "C1",
+    "name": "Shrimp Chow Mein (Combo)",
+    "category": "COMBINATION DINNER",
+    "spicy": false,
+    "variants": {
+      "regular": 11.2
+    }
+  },
+  {
+    "code": "C2",
+    "name": "Chicken Chow Mein (Combo)",
+    "category": "COMBINATION DINNER",
+    "spicy": false,
+    "variants": {
+      "regular": 11.2
+    }
+  },
+  {
+    "code": "C3",
+    "name": "Bourbon Chicken (Combo)",
+    "category": "COMBINATION DINNER",
+    "spicy": false,
+    "variants": {
+      "regular": 11.2
+    }
+  },
+  {
+    "code": "C4",
+    "name": "Pork Egg Foo Young (Combo)",
+    "category": "COMBINATION DINNER",
+    "spicy": false,
+    "variants": {
+      "regular": 11.2
+    }
+  },
+  {
+    "code": "C5",
+    "name": "Chicken Egg Foo Young (Combo)",
+    "category": "COMBINATION DINNER",
+    "spicy": false,
+    "variants": {
+      "regular": 11.2
+    }
+  },
+  {
+    "code": "C6",
+    "name": "Pepper Steak (Combo)",
+    "category": "COMBINATION DINNER",
+    "spicy": false,
+    "variants": {
+      "regular": 11.2
+    }
+  },
+  {
+    "code": "C7",
+    "name": "Sweet & Sour Pork (Combo)",
+    "category": "COMBINATION DINNER",
+    "spicy": false,
+    "variants": {
+      "regular": 11.2
+    }
+  },
+  {
+    "code": "C8",
+    "name": "Sweet & Sour Chicken (Combo)",
+    "category": "COMBINATION DINNER",
+    "spicy": false,
+    "variants": {
+      "regular": 11.2
+    }
+  },
+  {
+    "code": "C9",
+    "name": "Bar-B-Q Spare Ribs (Combo)",
+    "category": "COMBINATION DINNER",
+    "spicy": false,
+    "variants": {
+      "regular": 11.2
+    }
+  },
+  {
+    "code": "C10",
+    "name": "Chicken W. Broccoli (Combo)",
+    "category": "COMBINATION DINNER",
+    "spicy": false,
+    "variants": {
+      "regular": 11.2
+    }
+  },
+  {
+    "code": "C11",
+    "name": "Beef W. Broccoli (Combo)",
+    "category": "COMBINATION DINNER",
+    "spicy": false,
+    "variants": {
+      "regular": 11.2
+    }
+  },
+  {
+    "code": "C12",
+    "name": "Moo Goo Gai Pan (Combo)",
+    "category": "COMBINATION DINNER",
+    "spicy": false,
+    "variants": {
+      "regular": 11.2
+    }
+  },
+  {
+    "code": "C13",
+    "name": "Sesame Chicken (Combo)",
+    "category": "COMBINATION DINNER",
+    "spicy": false,
+    "variants": {
+      "regular": 11.2
+    }
+  },
+  {
+    "code": "C14",
+    "name": "General Tso's Chicken (Combo)",
+    "category": "COMBINATION DINNER",
+    "spicy": true,
+    "variants": {
+      "regular": 11.2
+    }
+  },
+  {
+    "code": "C15",
+    "name": "Chicken W. Garlic Sauce (Combo)",
+    "category": "COMBINATION DINNER",
+    "spicy": true,
+    "variants": {
+      "regular": 11.2
+    }
+  },
+  {
+    "code": "C16",
+    "name": "Beef W. Garlic Sauce (Combo)",
+    "category": "COMBINATION DINNER",
+    "spicy": false,
+    "variants": {
+      "regular": 11.2
+    }
+  },
+  {
+    "code": "C17",
+    "name": "Mixed Chinese Vegetable (Combo)",
+    "category": "COMBINATION DINNER",
+    "spicy": false,
+    "variants": {
+      "regular": 11.2
+    }
+  },
+  {
+    "code": "C18",
+    "name": "Broccoli W. Garlic Sauce (Combo)",
+    "category": "COMBINATION DINNER",
+    "spicy": true,
+    "variants": {
+      "regular": 11.2
+    }
+  },
+  {
+    "code": "C19",
+    "name": "Chicken W. Curry Sauce (Combo)",
+    "category": "COMBINATION DINNER",
+    "spicy": true,
+    "variants": {
+      "regular": 11.2
+    }
+  },
+  {
+    "code": "C20",
+    "name": "Shrimp W. Broccoli (Combo)",
+    "category": "COMBINATION DINNER",
+    "spicy": false,
+    "variants": {
+      "regular": 11.2
+    }
+  },
+  {
+    "code": "C21",
+    "name": "Pork Lo Mein (Combo)",
+    "category": "COMBINATION DINNER",
+    "spicy": false,
+    "variants": {
+      "regular": 11.2
+    }
+  },
+  {
+    "code": "C22",
+    "name": "Chicken Lo Mein (Combo)",
+    "category": "COMBINATION DINNER",
+    "spicy": false,
+    "variants": {
+      "regular": 11.2
+    }
+  },
+  {
+    "code": "C23",
+    "name": "Chicken W. Peanuts (Combo)",
+    "category": "COMBINATION DINNER",
+    "spicy": true,
+    "variants": {
+      "regular": 11.2
+    }
+  },
+  {
+    "code": "C24",
+    "name": "Shrimp W. Lobster Sauce (Combo)",
+    "category": "COMBINATION DINNER",
+    "spicy": false,
+    "variants": {
+      "regular": 11.2
+    }
+  },
+  {
+    "code": "C25",
+    "name": "Chicken W. Mixed Vegetables (Combo)",
+    "category": "COMBINATION DINNER",
+    "spicy": false,
+    "variants": {
+      "regular": 11.2
+    }
+  },
+  {
+    "code": "C26",
+    "name": "Beef W. Mixed Vegetables (Combo)",
+    "category": "COMBINATION DINNER",
+    "spicy": false,
+    "variants": {
+      "regular": 11.2
+    }
+  },
+  {
+    "code": "C27",
+    "name": "Lemon Chicken (Combo)",
+    "category": "COMBINATION DINNER",
+    "spicy": false,
+    "variants": {
+      "regular": 11.2
+    }
+  },
+  {
+    "code": "C28",
+    "name": "Boneless Spare Ribs (Combo)",
+    "category": "COMBINATION DINNER",
+    "spicy": false,
+    "variants": {
+      "regular": 11.2
+    }
+  },
+  {
+    "code": "C29",
+    "name": "Shrimp Lo Mein (Combo)",
+    "category": "COMBINATION DINNER",
+    "spicy": false,
+    "variants": {
+      "regular": 11.2
+    }
+  },
+  {
+    "code": "C30",
+    "name": "Honey Chicken(Combo)",
+    "category": "COMBINATION DINNER",
+    "spicy": false,
+    "variants": {
+      "regular": 11.2
+    }
+  },
+  {
+    "code": "C31",
+    "name": "Salt and pepper chicken(Combo)",
+    "category": "COMBINATION DINNER",
+    "spicy": false,
+    "variants": {
+      "regular": 11.2
+    }
+  },
+  {
+    "code": "C32",
+    "name": "Chicken with Black Bean Sauce(Combo)",
+    "category": "COMBINATION DINNER",
+    "spicy": false,
+    "variants": {
+      "regular": 11.2
+    }
+  },
+  {
+    "code": "C33",
+    "name": "Pork with Black Bean Sauce(Combo)",
+    "category": "COMBINATION DINNER",
+    "spicy": false,
+    "variants": {
+      "regular": 11.2
+    }
+  },
+  {
+    "code": null,
+    "name": "Szechuan Chicken(Combo)",
+    "category": "COMBINATION DINNER",
+    "spicy": false,
+    "variants": {
+      "regular": 11.2
+    }
+  },
+  {
+    "code": "A1",
+    "name": "Steamed Mixed Vegetables",
+    "category": "SPECIAL DIET DISHES",
+    "spicy": false,
+    "variants": {
+      "pt": 8.55,
+      "qt": 10.95
+    }
+  },
+  {
+    "code": "A2",
+    "name": "Steamed Chicken W. Mixed Vegetables",
+    "category": "SPECIAL DIET DISHES",
+    "spicy": false,
+    "variants": {
+      "pt": 8.75,
+      "qt": 12.95
+    }
+  },
+  {
+    "code": "A3",
+    "name": "Steamed Chicken W. Broccoli",
+    "category": "SPECIAL DIET DISHES",
+    "spicy": false,
+    "variants": {
+      "pt": 8.75,
+      "qt": 12.95
+    }
+  },
+  {
+    "code": "A4",
+    "name": "Steamed Shrimp W. Broccoli",
+    "category": "SPECIAL DIET DISHES",
+    "spicy": false,
+    "variants": {
+      "pt": 9.55,
+      "qt": 13.65
+    }
+  },
+  {
+    "code": "S1",
+    "name": "Seafood Delight",
+    "category": "CHEF'S SPECIALTIES",
+    "spicy": false,
+    "variants": {
+      "regular": 14.95
+    }
+  },
+  {
+    "code": "S2",
+    "name": "Happy Family",
+    "category": "CHEF'S SPECIALTIES",
+    "spicy": false,
+    "variants": {
+      "regular": 14.95
+    }
+  },
+  {
+    "code": "S3",
+    "name": "Four Season",
+    "category": "CHEF'S SPECIALTIES",
+    "spicy": false,
+    "variants": {
+      "regular": 14.95
+    }
+  },
+  {
+    "code": "S4",
+    "name": "Dragon & Phoenix",
+    "category": "CHEF'S SPECIALTIES",
+    "spicy": false,
+    "variants": {
+      "regular": 14.25
+    }
+  },
+  {
+    "code": "S5",
+    "name": "Three Musketeers",
+    "category": "CHEF'S SPECIALTIES",
+    "spicy": true,
+    "variants": {
+      "regular": 14.25
+    }
+  },
+  {
+    "code": "S6",
+    "name": "Triple Delight",
+    "category": "CHEF'S SPECIALTIES",
+    "spicy": false,
+    "variants": {
+      "regular": 14.25
+    }
+  },
+  {
+    "code": "S7",
+    "name": "Beef W. Scallion Sauce",
+    "category": "CHEF'S SPECIALTIES",
+    "spicy": false,
+    "variants": {
+      "regular": 14.25
+    }
+  },
+  {
+    "code": "S8",
+    "name": "Scallop and Beef",
+    "category": "CHEF'S SPECIALTIES",
+    "spicy": false,
+    "variants": {
+      "regular": 14.25
+    }
+  },
+  {
+    "code": "S9",
+    "name": "Szechuan Triple Crown",
+    "category": "CHEF'S SPECIALTIES",
+    "spicy": true,
+    "variants": {
+      "regular": 14.25
+    }
+  },
+  {
+    "code": "S10",
+    "name": "Beef W. Orange Flavor",
+    "category": "CHEF'S SPECIALTIES",
+    "spicy": true,
+    "variants": {
+      "regular": 14.25
+    }
+  },
+  {
+    "code": "S11",
+    "name": "Hunan Triple Crown",
+    "category": "CHEF'S SPECIALTIES",
+    "spicy": true,
+    "variants": {
+      "regular": 14.25
+    }
+  },
+  {
+    "code": "S12",
+    "name": "Orange Chicken",
+    "category": "CHEF'S SPECIALTIES",
+    "spicy": true,
+    "variants": {
+      "regular": 13.95
+    }
+  },
+  {
+    "code": "S13",
+    "name": "Sesame Beef",
+    "category": "CHEF'S SPECIALTIES",
+    "spicy": true,
+    "variants": {
+      "regular": 14.25
+    }
+  },
+  {
+    "code": "S14",
+    "name": "Sesame Shrimp",
+    "category": "CHEF'S SPECIALTIES",
+    "spicy": false,
+    "variants": {
+      "regular": 14.25
+    }
+  },
+  {
+    "code": "H1",
+    "name": "Sesame Chicken",
+    "category": "SZECHUAN & HUNAN DISHES",
+    "spicy": false,
+    "variants": {
+      "small": 9.85,
+      "large": 13.95
+    }
+  },
+  {
+    "code": "H2",
+    "name": "Hunan Chicken",
+    "category": "SZECHUAN & HUNAN DISHES",
+    "spicy": true,
+    "variants": {
+      "small": 9.85,
+      "large": 13.95
+    }
+  },
+  {
+    "code": "H3",
+    "name": "Kung Pao Chicken",
+    "category": "SZECHUAN & HUNAN DISHES",
+    "spicy": true,
+    "variants": {
+      "small": 9.85,
+      "large": 13.95
+    }
+  },
+  {
+    "code": "H4",
+    "name": "Chicken with Garlic Sauce",
+    "category": "SZECHUAN & HUNAN DISHES",
+    "spicy": true,
+    "variants": {
+      "small": 9.85,
+      "large": 13.95
+    }
+  },
+  {
+    "code": "H5",
+    "name": "Hot & Spicy Chicken",
+    "category": "SZECHUAN & HUNAN DISHES",
+    "spicy": true,
+    "variants": {
+      "small": 9.85,
+      "large": 13.95
+    }
+  },
+  {
+    "code": "H5",
+    "name": "Hot & Spicy Beef",
+    "category": "SZECHUAN & HUNAN DISHES",
+    "spicy": true,
+    "variants": {
+      "small": 9.85,
+      "large": 13.95
+    }
+  },
+  {
+    "code": "H6",
+    "name": "Hunan Beef",
+    "category": "SZECHUAN & HUNAN DISHES",
+    "spicy": true,
+    "variants": {
+      "small": 9.85,
+      "large": 13.95
+    }
+  },
+  {
+    "code": "H7",
+    "name": "Beef W. Szechuan Style",
+    "category": "SZECHUAN & HUNAN DISHES",
+    "spicy": true,
+    "variants": {
+      "small": 9.85,
+      "large": 13.95
+    }
+  },
+  {
+    "code": "H8",
+    "name": "Bourbon Chicken",
+    "category": "SZECHUAN & HUNAN DISHES",
+    "spicy": false,
+    "variants": {
+      "small": 9.85,
+      "large": 13.95
+    }
+  },
+  {
+    "code": "H9",
+    "name": "Beef with Garlic Sauce",
+    "category": "SZECHUAN & HUNAN DISHES",
+    "spicy": true,
+    "variants": {
+      "small": 9.85,
+      "large": 13.95
+    }
+  },
+  {
+    "code": "H10",
+    "name": "Scallops W. Garlic Sauce",
+    "category": "SZECHUAN & HUNAN DISHES",
+    "spicy": true,
+    "variants": {
+      "small": 9.85,
+      "large": 13.95
+    }
+  },
+  {
+    "code": "H11",
+    "name": "Hunan Shrimp",
+    "category": "SZECHUAN & HUNAN DISHES",
+    "spicy": true,
+    "variants": {
+      "small": 9.85,
+      "large": 13.95
+    }
+  },
+  {
+    "code": "H12",
+    "name": "Shrimp with Garlic Sauce",
+    "category": "SZECHUAN & HUNAN DISHES",
+    "spicy": true,
+    "variants": {
+      "small": 9.85,
+      "large": 13.95
+    }
+  },
+  {
+    "code": "H13",
+    "name": "Hot & Spicy Shrimp",
+    "category": "SZECHUAN & HUNAN DISHES",
+    "spicy": true,
+    "variants": {
+      "small": 9.85,
+      "large": 13.95
+    }
+  },
+  {
+    "code": "H14",
+    "name": "Hot & Crispy Chicken",
+    "category": "SZECHUAN & HUNAN DISHES",
+    "spicy": true,
+    "variants": {
+      "small": 9.85,
+      "large": 13.95
+    }
+  },
+  {
+    "code": "H15",
+    "name": "Szechuan Shrimp",
+    "category": "SZECHUAN & HUNAN DISHES",
+    "spicy": true,
+    "variants": {
+      "small": 9.85,
+      "large": 13.95
+    }
+  },
+  {
+    "code": "H15",
+    "name": "Szechuan Pork",
+    "category": "SZECHUAN & HUNAN DISHES",
+    "spicy": true,
+    "variants": {
+      "small": 9.85,
+      "large": 13.95
+    }
+  },
+  {
+    "code": "H15",
+    "name": "Szechuan Chicken",
+    "category": "SZECHUAN & HUNAN DISHES",
+    "spicy": true,
+    "variants": {
+      "small": 9.85,
+      "large": 13.95
+    }
+  },
+  {
+    "code": "H16",
+    "name": "General Tso's Chicken",
+    "category": "SZECHUAN & HUNAN DISHES",
+    "spicy": true,
+    "variants": {
+      "small": 9.85,
+      "large": 13.95
+    }
+  },
+  {
+    "code": "H17",
+    "name": "Bang Bang Chicken",
+    "category": "SZECHUAN & HUNAN DISHES",
+    "spicy": false,
+    "variants": {
+      "small": 9.85,
+      "large": 13.95
+    }
+  },
+  {
+    "code": "H18",
+    "name": "Salt & Pepper Chicken",
+    "category": "SZECHUAN & HUNAN DISHES",
+    "spicy": true,
+    "variants": {
+      "small": 9.85,
+      "large": 13.95
+    }
+  },
+  {
+    "code": "H19",
+    "name": "Black Pepper Chicken",
+    "category": "SZECHUAN & HUNAN DISHES",
+    "spicy": true,
+    "variants": {
+      "small": 9.85,
+      "large": 13.95
+    }
+  },
+  {
+    "code": null,
+    "name": "Hibachi Vegetable",
+    "category": "Hibachi Entree",
+    "spicy": false,
+    "variants": {
+      "regular": 12.99
+    }
+  },
+  {
+    "code": null,
+    "name": "Hibachi Chicken",
+    "category": "Hibachi Entree",
+    "spicy": false,
+    "variants": {
+      "regular": 14.99
+    }
+  },
+  {
+    "code": null,
+    "name": "Hibachi Jumbo Shrimp",
+    "category": "Hibachi Entree",
+    "spicy": false,
+    "variants": {
+      "regular": 16.99
+    }
+  },
+  {
+    "code": null,
+    "name": "Hibachi Filet Mignon",
+    "category": "Hibachi Entree",
+    "spicy": false,
+    "variants": {
+      "regular": 21.99
+    }
+  },
+  {
+    "code": null,
+    "name": "Hibachi Chicken & Jumbo Shrimp",
+    "category": "Hibachi Entree",
+    "spicy": false,
+    "variants": {
+      "regular": 17.99
+    }
+  },
+  {
+    "code": null,
+    "name": "Hibachi Chicken & Steak",
+    "category": "Hibachi Entree",
+    "spicy": false,
+    "variants": {
+      "regular": 19.99
+    }
+  },
+  {
+    "code": null,
+    "name": "Hibachi Steak & Jumbo Shrimp",
+    "category": "Hibachi Entree",
+    "spicy": false,
+    "variants": {
+      "regular": 20.99
+    }
+  },
+  {
+    "code": null,
+    "name": "Hibachi Scallop & Jumbo Shrimp",
+    "category": "Hibachi Entree",
+    "spicy": false,
+    "variants": {
+      "regular": 19.99
+    }
+  },
+  {
+    "code": null,
+    "name": "Hibachi Special (Chicken & Steak & Shrimp)",
+    "category": "Hibachi Entree",
+    "spicy": false,
+    "variants": {
+      "regular": 22.99
+    }
+  },
+  {
+    "code": null,
+    "name": "Daily Special #1 Broccoli Chicken & Shrimp with Fried Rice",
+    "category": "Daily Special",
+    "spicy": false,
+    "variants": {
+      "regular": 10.55
+    }
+  },
+  {
+    "code": null,
+    "name": "Daily Special #2 Chicken & Shrimp Lo Mein with Fried Rice",
+    "category": "Daily Special",
+    "spicy": false,
+    "variants": {
+      "regular": 10.55
+    }
+  },
+  {
+    "code": null,
+    "name": "Daily Special #3 Black Pepper Chicken with Fried Rice",
+    "category": "Daily Special",
+    "spicy": false,
+    "variants": {
+      "regular": 10.55
+    }
+  },
+  {
+    "code": null,
+    "name": "Daily Special #3 Salt Pepper Chicken with Fried Rice",
+    "category": "Daily Special",
+    "spicy": false,
+    "variants": {
+      "regular": 10.55
+    }
+  },
+  {
+    "code": null,
+    "name": "Chicken Wings (4)",
+    "category": "Chicken Wings",
+    "spicy": false,
+    "variants": {
+      "with lo mein": 12.55,
+      "with broccoli": 12.25,
+      "with vegetable": 12.25,
+      "with vegetable lo mein": 12.95,
+      "with pork lo mein": 12.95,
+      "with chicken lo mein": 12.95,
+      "with beef lo mein": 13.25,
+      "with shrimp lo mein": 13.25
+    }
+  },
+  {
+    "code": null,
+    "name": "Teriyaki Chicken",
+    "category": "Teriyaki Chicken",
+    "spicy": false,
+    "variants": {
+      "with fried rice": 10.95,
+      "with lo mein": 12.55
+    }
+  },
+  {
+    "code": "L1",
+    "name": "Shrimp Chow Mein (Lunch)",
+    "category": "LUNCH SPECIAL",
+    "spicy": false,
+    "variants": {
+      "regular": 9.15
+    }
+  },
+  {
+    "code": "L1",
+    "name": "Chicken Chow Mein (Lunch)",
+    "category": "LUNCH SPECIAL",
+    "spicy": false,
+    "variants": {
+      "regular": 9.15
+    }
+  },
+  {
+    "code": "L2",
+    "name": "Pepper Steak (Lunch)",
+    "category": "LUNCH SPECIAL",
+    "spicy": false,
+    "variants": {
+      "regular": 9.15
+    }
+  },
+  {
+    "code": "L3",
+    "name": "Beef with Broccoli (Lunch)",
+    "category": "LUNCH SPECIAL",
+    "spicy": false,
+    "variants": {
+      "regular": 9.15
+    }
+  },
+  {
+    "code": "L4",
+    "name": "Chicken with Broccoli (Lunch)",
+    "category": "LUNCH SPECIAL",
+    "spicy": false,
+    "variants": {
+      "regular": 9.15
+    }
+  },
+  {
+    "code": "L5",
+    "name": "Roast Pork with Broccoli (Lunch)",
+    "category": "LUNCH SPECIAL",
+    "spicy": false,
+    "variants": {
+      "regular": 9.15
+    }
+  },
+  {
+    "code": "L6",
+    "name": "Shrimp with Garlic Sauce (Lunch)",
+    "category": "LUNCH SPECIAL",
+    "spicy": true,
+    "variants": {
+      "regular": 9.15
+    }
+  },
+  {
+    "code": "L7",
+    "name": "Shrimp with Broccoli (Lunch)",
+    "category": "LUNCH SPECIAL",
+    "spicy": false,
+    "variants": {
+      "regular": 9.15
+    }
+  },
+  {
+    "code": "L9",
+    "name": "Moo Goo Gai Pan (Lunch)",
+    "category": "LUNCH SPECIAL",
+    "spicy": false,
+    "variants": {
+      "regular": 9.15
+    }
+  },
+  {
+    "code": "L10",
+    "name": "Shrimp Lo Mein (Lunch)",
+    "category": "LUNCH SPECIAL",
+    "spicy": false,
+    "variants": {
+      "regular": 9.15
+    }
+  },
+  {
+    "code": "L10",
+    "name": "Beef Lo Mein (Lunch)",
+    "category": "LUNCH SPECIAL",
+    "spicy": false,
+    "variants": {
+      "regular": 9.15
+    }
+  },
+  {
+    "code": "L11",
+    "name": "Roast Pork Lo Mein (Lunch)",
+    "category": "LUNCH SPECIAL",
+    "spicy": false,
+    "variants": {
+      "regular": 9.15
+    }
+  },
+  {
+    "code": "L11",
+    "name": "Chicken Lo Mein (Lunch)",
+    "category": "LUNCH SPECIAL",
+    "spicy": false,
+    "variants": {
+      "regular": 9.15
+    }
+  },
+  {
+    "code": "L13",
+    "name": "Chicken with Garlic Sauce (Lunch)",
+    "category": "LUNCH SPECIAL",
+    "spicy": true,
+    "variants": {
+      "regular": 9.15
+    }
+  },
+  {
+    "code": "L14",
+    "name": "Beef with Garlic Sauce (Lunch)",
+    "category": "LUNCH SPECIAL",
+    "spicy": true,
+    "variants": {
+      "regular": 9.15
+    }
+  },
+  {
+    "code": "L15",
+    "name": "General Tso's Chicken (Lunch)",
+    "category": "LUNCH SPECIAL",
+    "spicy": true,
+    "variants": {
+      "regular": 9.15
+    }
+  },
+  {
+    "code": "L16",
+    "name": "Sesame Chicken (Lunch)",
+    "category": "LUNCH SPECIAL",
+    "spicy": false,
+    "variants": {
+      "regular": 9.15
+    }
+  },
+  {
+    "code": "L17",
+    "name": "Chicken with Cashew Nuts (Lunch)",
+    "category": "LUNCH SPECIAL",
+    "spicy": false,
+    "variants": {
+      "regular": 9.15
+    }
+  },
+  {
+    "code": "L18",
+    "name": "Sweet & Sour Pork (Lunch)",
+    "category": "LUNCH SPECIAL",
+    "spicy": false,
+    "variants": {
+      "regular": 9.15
+    }
+  },
+  {
+    "code": "L18",
+    "name": "Sweet & Sour Chicken (Lunch)",
+    "category": "LUNCH SPECIAL",
+    "spicy": false,
+    "variants": {
+      "regular": 9.15
+    }
+  },
+  {
+    "code": "L19",
+    "name": "Mixed Vegetables (Lunch)",
+    "category": "LUNCH SPECIAL",
+    "spicy": false,
+    "variants": {
+      "regular": 9.15
+    }
+  },
+  {
+    "code": "L20",
+    "name": "Shrimp with Mixed Vegetables (Lunch)",
+    "category": "LUNCH SPECIAL",
+    "spicy": false,
+    "variants": {
+      "regular": 9.15
+    }
+  },
+  {
+    "code": "L21",
+    "name": "Beef with Mixed Vegetables (Lunch)",
+    "category": "LUNCH SPECIAL",
+    "spicy": false,
+    "variants": {
+      "regular": 9.15
+    }
+  },
+  {
+    "code": "L22",
+    "name": "Beef with Snow Peas (Lunch)",
+    "category": "LUNCH SPECIAL",
+    "spicy": false,
+    "variants": {
+      "regular": 9.15
+    }
+  },
+  {
+    "code": "L23",
+    "name": "Broccoli with Garlic Sauce (Lunch)",
+    "category": "LUNCH SPECIAL",
+    "spicy": true,
+    "variants": {
+      "regular": 9.15
+    }
+  },
+  {
+    "code": "L24",
+    "name": "Hunan Beef (Lunch)",
+    "category": "LUNCH SPECIAL",
+    "spicy": true,
+    "variants": {
+      "regular": 9.15
+    }
+  },
+  {
+    "code": "L24",
+    "name": "Szechuan Beef (Lunch)",
+    "category": "LUNCH SPECIAL",
+    "spicy": true,
+    "variants": {
+      "regular": 9.15
+    }
+  },
+  {
+    "code": "L25",
+    "name": "Curry Chicken (Lunch)",
+    "category": "LUNCH SPECIAL",
+    "spicy": true,
+    "variants": {
+      "regular": 9.15
+    }
+  },
+  {
+    "code": "L26",
+    "name": "Boneless Spare Ribs (Lunch)",
+    "category": "LUNCH SPECIAL",
+    "spicy": false,
+    "variants": {
+      "regular": 9.15
+    }
+  },
+  {
+    "code": "L27",
+    "name": "Kung Po Chicken (Lunch)",
+    "category": "LUNCH SPECIAL",
+    "spicy": true,
+    "variants": {
+      "regular": 9.15
+    }
+  },
+  {
+    "code": "L28",
+    "name": "Honey Boneless Chicken (Lunch)",
+    "category": "LUNCH SPECIAL",
+    "spicy": false,
+    "variants": {
+      "regular": 9.15
+    }
+  }
+]

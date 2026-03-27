@@ -1,0 +1,904 @@
+{
+  "This file helps voice agents normalize misheard menu names during phone calls.": [],
+  "Use qMenu-backed canonical item names as the source of truth.": [],
+  "Do not invent menu items that are not listed here or in the structured menu.": [],
+  "If an alias could match multiple items, ask a short clarification question instead of guessing.": [],
+  "takeout": [
+    "to go",
+    "take out",
+    "pickup",
+    "pick up",
+    "carry out"
+  ],
+  "dine-in": [
+    "dine in",
+    "eat in",
+    "for here"
+  ],
+  "lunch special": [
+    "lunch special",
+    "lunch specials",
+    "lunch combo",
+    "lunch combo special",
+    "midday special"
+  ],
+  "hibachi": [
+    "heebachi",
+    "hibatchi",
+    "hibachi combo",
+    "teppanyaki",
+    "铁板",
+    "铁板烧"
+  ],
+  "combo": [
+    "combination",
+    "dinner combo",
+    "combo plate"
+  ],
+  "spicy": [
+    "hot",
+    "spicy",
+    "extra spicy",
+    "mild spicy",
+    "medium spicy",
+    "hot spicy"
+  ],
+  "lo mein": [
+    "low mein",
+    "lo main",
+    "lo men",
+    "捞面"
+  ],
+  "chow mein": [
+    "chow main",
+    "chau mein",
+    "炒面"
+  ],
+  "chow mei fun": [
+    "mei fun",
+    "mai fun",
+    "may fun",
+    "rice noodle",
+    "米粉"
+  ],
+  "egg foo young": [
+    "egg fu young",
+    "egg foo yung",
+    "egg foo yong",
+    "芙蓉蛋"
+  ],
+  "fried rice": [
+    "fry rice",
+    "fried lice",
+    "炒饭"
+  ],
+  "wonton soup": [
+    "won ton soup",
+    "云吞汤"
+  ],
+  "hot and sour soup": [
+    "hot n sour soup",
+    "sour spicy soup",
+    "酸辣汤"
+  ],
+  "spring roll": [
+    "spring rolls",
+    "春卷"
+  ],
+  "egg roll": [
+    "egg rolls",
+    "春卷",
+    "蛋卷"
+  ],
+  "shrimp roll": [
+    "shrimp egg roll",
+    "shrimp rolls"
+  ],
+  "french fries": [
+    "fries",
+    "fried fries",
+    "薯条"
+  ],
+  "General Tso's Chicken": [
+    "General Tsos Chicken",
+    "General Tso Chicken",
+    "General Zo's Chicken",
+    "General Cho's Chicken",
+    "左宗鸡",
+    "左宗棠鸡"
+  ],
+  "Sesame Chicken": [
+    "sesame",
+    "sesame chkn",
+    "芝麻鸡"
+  ],
+  "Orange Chicken": [
+    "orange chkn",
+    "陈皮鸡",
+    "橙味鸡"
+  ],
+  "Lemon Chicken": [
+    "lemon chkn",
+    "柠檬鸡"
+  ],
+  "Kung Pao Chicken": [
+    "Kung Po Chicken",
+    "Gong Bao Chicken",
+    "Kong Pao Chicken",
+    "宫保鸡"
+  ],
+  "Hunan Chicken": [
+    "human chicken",
+    "hunan chkn",
+    "湖南鸡"
+  ],
+  "Szechuan Chicken": [
+    "Sichuan Chicken",
+    "Szechwan Chicken",
+    "schezwan chicken",
+    "四川鸡"
+  ],
+  "Bang Bang Chicken": [
+    "bangbang chicken",
+    "棒棒鸡"
+  ],
+  "Salt & Pepper Chicken": [
+    "salt and pepper chicken",
+    "pepper salt chicken",
+    "椒盐鸡"
+  ],
+  "Black Pepper Chicken": [
+    "black pepper chkn",
+    "黑椒鸡"
+  ],
+  "Bourbon Chicken": [
+    "burben chicken",
+    "bourbon chkn",
+    "波本鸡"
+  ],
+  "Honey Chicken": [
+    "honey chkn",
+    "蜜汁鸡"
+  ],
+  "Honey Boneless Chicken": [
+    "boneless honey chicken",
+    "honey boneless",
+    "无骨蜜汁鸡"
+  ],
+  "Moo Goo Gai Pan": [
+    "mu goo gai pan",
+    "moo goo guy pan",
+    "mugoo gai pan",
+    "蘑菇鸡片"
+  ],
+  "Pepper Steak with Onion": [
+    "pepper steak",
+    "steak with onion",
+    "青椒牛"
+  ],
+  "Chicken with Broccoli": [
+    "broccoli chicken",
+    "chicken broccoli",
+    "西兰花鸡"
+  ],
+  "Chicken with Cashew Nuts": [
+    "cashew chicken",
+    "chicken cashew",
+    "腰果鸡"
+  ],
+  "Chicken with Snow Pea Pods": [
+    "chicken snow peas",
+    "snow pea chicken",
+    "荷兰豆鸡"
+  ],
+  "Chicken with Curry Sauce": [
+    "curry chicken",
+    "chicken curry",
+    "咖喱鸡"
+  ],
+  "Chicken with Mixed Vegetables": [
+    "chicken mixed veg",
+    "mixed veggie chicken",
+    "什菜鸡"
+  ],
+  "Chicken with Garlic Sauce": [
+    "garlic sauce chicken",
+    "chicken garlic sauce",
+    "鱼香鸡",
+    "蒜汁鸡"
+  ],
+  "Hot & Spicy Chicken": [
+    "hot spicy chicken",
+    "spicy chicken",
+    "辣鸡"
+  ],
+  "Hot & Crispy Chicken": [
+    "crispy spicy chicken",
+    "香辣鸡"
+  ],
+  "Beef with Broccoli": [
+    "broccoli beef",
+    "beef broccoli",
+    "西兰花牛"
+  ],
+  "Beef with Snow Peas": [
+    "snow pea beef",
+    "beef snow peas",
+    "荷兰豆牛"
+  ],
+  "Beef with Mushroom": [
+    "mushroom beef",
+    "beef mushroom",
+    "蘑菇牛"
+  ],
+  "Beef with Cashew Nuts": [
+    "cashew beef",
+    "牛肉腰果"
+  ],
+  "Beef with Mixed Vegetables": [
+    "mixed veggie beef",
+    "什菜牛"
+  ],
+  "Curry Beef": [
+    "beef curry",
+    "咖喱牛"
+  ],
+  "Beef with Garlic Sauce": [
+    "garlic sauce beef",
+    "蒜汁牛"
+  ],
+  "Beef with Szechuan Style": [
+    "szechuan beef",
+    "sichuan beef",
+    "四川牛"
+  ],
+  "Beef with Orange Flavor": [
+    "orange beef",
+    "陈皮牛"
+  ],
+  "Beef with Scallion Sauce": [
+    "scallion beef",
+    "onion beef sauce",
+    "葱爆牛"
+  ],
+  "Roast Pork with Broccoli": [
+    "pork broccoli",
+    "broccoli pork",
+    "西兰花叉烧"
+  ],
+  "Roast Pork with Mushroom": [
+    "pork mushroom",
+    "mushroom pork",
+    "蘑菇叉烧"
+  ],
+  "Roast Pork with Snow Peas": [
+    "pork snow peas",
+    "雪豆叉烧"
+  ],
+  "Roast Pork with Mixed Vegetables": [
+    "pork mixed veg",
+    "什菜叉烧"
+  ],
+  "Boneless Spare Ribs": [
+    "boneless ribs",
+    "spare ribs",
+    "无骨排"
+  ],
+  "Bar-B-Q Spare Ribs": [
+    "bbq spare ribs",
+    "barbeque spare ribs",
+    "烧排骨"
+  ],
+  "Sweet & Sour Pork": [
+    "sweet sour pork",
+    "咕咾肉",
+    "甜酸猪"
+  ],
+  "Szechuan Pork": [
+    "sichuan pork",
+    "四川猪"
+  ],
+  "Pork with Black Bean Sauce": [
+    "black bean pork",
+    "豆豉猪"
+  ],
+  "Shrimp with Lobster Sauce": [
+    "lobster sauce shrimp",
+    "shrimp lobster sauce",
+    "虾龙糊"
+  ],
+  "Shrimp with Broccoli": [
+    "broccoli shrimp",
+    "shrimp broccoli",
+    "西兰花虾"
+  ],
+  "Shrimp with Mixed Chinese Vegetables": [
+    "shrimp mixed veg",
+    "什菜虾"
+  ],
+  "Shrimp with Snow Pea Pods": [
+    "shrimp snow peas",
+    "荷兰豆虾"
+  ],
+  "Curry Shrimp": [
+    "shrimp curry",
+    "咖喱虾"
+  ],
+  "Shrimp with Cashew Nuts": [
+    "cashew shrimp",
+    "腰果虾"
+  ],
+  "Kung Pao Shrimp": [
+    "Kung Po Shrimp",
+    "Gong Bao Shrimp",
+    "宫保虾"
+  ],
+  "Sweet & Sour Shrimp": [
+    "sweet sour shrimp",
+    "甜酸虾"
+  ],
+  "Fried Scallops": [
+    "fried scallop",
+    "炸带子"
+  ],
+  "Seafood Delight": [
+    "seafood deluxe",
+    "海鲜全家福"
+  ],
+  "Scallop and Beef": [
+    "beef and scallops",
+    "带子牛"
+  ],
+  "Scallops with Garlic Sauce": [
+    "garlic scallops",
+    "蒜汁带子"
+  ],
+  "Hunan Shrimp": [
+    "human shrimp",
+    "湖南虾"
+  ],
+  "Shrimp with Garlic Sauce": [
+    "garlic shrimp",
+    "蒜汁虾"
+  ],
+  "Hot & Spicy Shrimp": [
+    "hot spicy shrimp",
+    "辣虾"
+  ],
+  "Szechuan Shrimp": [
+    "sichuan shrimp",
+    "四川虾"
+  ],
+  "Sesame Shrimp": [
+    "芝麻虾"
+  ],
+  "Fried Dumpling": [
+    "pot sticker",
+    "potsticker",
+    "fried pot sticker",
+    "锅贴"
+  ],
+  "Steamed Dumpling": [
+    "steam dumpling",
+    "steamed pot sticker",
+    "水饺"
+  ],
+  "Steak & Cheese Egg Roll": [
+    "steak cheese roll",
+    "牛排芝士卷"
+  ],
+  "Teriyaki Chicken (5)": [
+    "chicken teriyaki appetizer",
+    "照烧鸡串"
+  ],
+  "Crabmeat Rangoon": [
+    "crab rangoon",
+    "rangoon",
+    "蟹角"
+  ],
+  "Pu Pu Platter": [
+    "poo poo platter",
+    "pu pu",
+    "拼盘"
+  ],
+  "Fried Bread": [
+    "fried dough",
+    "炸面包"
+  ],
+  "Chicken Nugget": [
+    "nuggets",
+    "鸡块"
+  ],
+  "Chicken Nugget with French Fries": [
+    "nuggets fries combo",
+    "鸡块薯条"
+  ],
+  "Wonton Egg Drop Soup": [
+    "wonton egg soup",
+    "云吞蛋花汤"
+  ],
+  "Chicken Rice Soup": [
+    "chicken rice",
+    "鸡肉米汤"
+  ],
+  "Chicken Noodle Soup": [
+    "chicken noodle",
+    "鸡面汤"
+  ],
+  "Vegetable Soup": [
+    "veg soup",
+    "蔬菜汤"
+  ],
+  "House Special Soup": [
+    "house soup",
+    "本楼汤"
+  ],
+  "Roast Pork Fried Rice": [
+    "pork fried rice",
+    "叉烧炒饭"
+  ],
+  "Chicken Fried Rice": [
+    "chicken fry rice",
+    "鸡炒饭"
+  ],
+  "Beef Fried Rice": [
+    "beef fry rice",
+    "牛炒饭"
+  ],
+  "Shrimp Fried Rice": [
+    "shrimp fry rice",
+    "虾炒饭"
+  ],
+  "Vegetable Fried Rice": [
+    "veg fried rice",
+    "菜炒饭"
+  ],
+  "Egg Fried Rice": [
+    "egg fry rice",
+    "蛋炒饭"
+  ],
+  "House Special Fried Rice": [
+    "house fried rice",
+    "本楼炒饭"
+  ],
+  "Roast Pork Lo Mein": [
+    "pork lo mein",
+    "叉烧捞面"
+  ],
+  "Chicken Lo Mein": [
+    "chicken low mein",
+    "鸡捞面"
+  ],
+  "Beef Lo Mein": [
+    "beef low mein",
+    "牛捞面"
+  ],
+  "Shrimp Lo Mein": [
+    "shrimp low mein",
+    "虾捞面"
+  ],
+  "Vegetable Lo Mein": [
+    "veg lo mein",
+    "菜捞面"
+  ],
+  "House Special Lo Mein": [
+    "house lo mein",
+    "本楼捞面"
+  ],
+  "Chicken Chow Mein": [
+    "chicken chow main",
+    "鸡炒面"
+  ],
+  "Roast Pork Chow Mein": [
+    "pork chow main",
+    "叉烧炒面"
+  ],
+  "Beef Chow Mein": [
+    "beef chow main",
+    "牛炒面"
+  ],
+  "Shrimp Chow Mein": [
+    "shrimp chow main",
+    "虾炒面"
+  ],
+  "Vegetable Chow Mein": [
+    "veg chow mein",
+    "菜炒面"
+  ],
+  "House Special Chow Mein": [
+    "house chow mein",
+    "本楼炒面"
+  ],
+  "Vegetable Chow Mei Fun": [
+    "vegetable mei fun",
+    "veg mei fun",
+    "菜米粉"
+  ],
+  "Pork Chow Mei Fun": [
+    "pork mei fun",
+    "猪肉米粉"
+  ],
+  "Chicken Chow Mei Fun": [
+    "chicken mei fun",
+    "鸡米粉"
+  ],
+  "Beef Chow Mei Fun": [
+    "beef mei fun",
+    "牛米粉"
+  ],
+  "Shrimp Chow Mei Fun": [
+    "shrimp mei fun",
+    "虾米粉"
+  ],
+  "House Special Chow Mei Fun": [
+    "house mei fun",
+    "本楼米粉"
+  ],
+  "Roast Pork Egg Foo Young": [
+    "pork egg foo young",
+    "叉烧芙蓉蛋"
+  ],
+  "Chicken Egg Foo Young": [
+    "chicken egg foo young",
+    "鸡芙蓉蛋"
+  ],
+  "Beef Egg Foo Young": [
+    "beef egg foo young",
+    "牛芙蓉蛋"
+  ],
+  "Shrimp Egg Foo Young": [
+    "shrimp egg foo young",
+    "虾芙蓉蛋"
+  ],
+  "House Special Egg Foo Young": [
+    "house egg foo young",
+    "本楼芙蓉蛋"
+  ],
+  "Vegetable Egg Foo Young": [
+    "vegetable egg foo young",
+    "菜芙蓉蛋"
+  ],
+  "combo numbering": [
+    "c one",
+    "c two",
+    "c three",
+    "combo one",
+    "combo two",
+    "combo three"
+  ],
+  "Shrimp Chow Mein (Combo)": [
+    "combo shrimp chow mein",
+    "c1"
+  ],
+  "Chicken Chow Mein (Combo)": [
+    "combo chicken chow mein",
+    "c2"
+  ],
+  "Bourbon Chicken (Combo)": [
+    "combo bourbon chicken",
+    "c3"
+  ],
+  "Pork Egg Foo Young (Combo)": [
+    "combo pork egg foo young",
+    "c4"
+  ],
+  "Chicken Egg Foo Young (Combo)": [
+    "combo chicken egg foo young",
+    "c5"
+  ],
+  "Pepper Steak (Combo)": [
+    "combo pepper steak",
+    "c6"
+  ],
+  "Sweet & Sour Pork (Combo)": [
+    "combo sweet sour pork",
+    "c7"
+  ],
+  "Sweet & Sour Chicken (Combo)": [
+    "combo sweet sour chicken",
+    "c8"
+  ],
+  "Sesame Chicken (Combo)": [
+    "combo sesame chicken",
+    "c13"
+  ],
+  "General Tso's Chicken (Combo)": [
+    "combo general tso's chicken",
+    "c14"
+  ],
+  "Chicken with Garlic Sauce (Combo)": [
+    "combo chicken garlic sauce",
+    "c15"
+  ],
+  "Beef with Garlic Sauce (Combo)": [
+    "combo beef garlic sauce",
+    "c16"
+  ],
+  "Pork Lo Mein (Combo)": [
+    "combo pork lo mein",
+    "c21"
+  ],
+  "Chicken Lo Mein (Combo)": [
+    "combo chicken lo mein",
+    "c22"
+  ],
+  "Shrimp Lo Mein (Combo)": [
+    "combo shrimp lo mein",
+    "c29"
+  ],
+  "Salt and Pepper Chicken (Combo)": [
+    "combo salt pepper chicken",
+    "c31"
+  ],
+  "Chicken with Black Bean Sauce (Combo)": [
+    "combo black bean chicken",
+    "c32"
+  ],
+  "Pork with Black Bean Sauce (Combo)": [
+    "combo black bean pork",
+    "c33"
+  ],
+  "Szechuan Chicken (Combo)": [
+    "combo szechuan chicken"
+  ],
+  "Happy Family": [
+    "happy family special",
+    "全家福"
+  ],
+  "Four Season": [
+    "four seasons",
+    "四季"
+  ],
+  "Dragon & Phoenix": [
+    "dragon phoenix",
+    "龙凤配"
+  ],
+  "Three Musketeers": [
+    "three musketeer",
+    "三剑客"
+  ],
+  "Triple Delight": [
+    "triple deluxe",
+    "三鲜"
+  ],
+  "Szechuan Triple Crown": [
+    "sichuan triple crown"
+  ],
+  "Hunan Triple Crown": [
+    "human triple crown"
+  ],
+  "Hibachi Vegetable": [
+    "vegetable hibachi",
+    "蔬菜铁板"
+  ],
+  "Hibachi Chicken": [
+    "chicken hibachi",
+    "鸡铁板"
+  ],
+  "Hibachi Jumbo Shrimp": [
+    "shrimp hibachi",
+    "jumbo shrimp hibachi",
+    "虾铁板"
+  ],
+  "Hibachi Filet Mignon": [
+    "filet hibachi",
+    "steak hibachi",
+    "菲力铁板"
+  ],
+  "Hibachi Chicken & Jumbo Shrimp": [
+    "chicken and shrimp hibachi",
+    "鸡虾铁板"
+  ],
+  "Hibachi Chicken & Steak": [
+    "chicken steak hibachi",
+    "chicken and steak hibachi",
+    "鸡牛铁板"
+  ],
+  "Hibachi Steak & Jumbo Shrimp": [
+    "steak shrimp hibachi",
+    "牛虾铁板"
+  ],
+  "Hibachi Scallop & Jumbo Shrimp": [
+    "scallop shrimp hibachi",
+    "带子虾铁板"
+  ],
+  "Hibachi Special (Chicken & Steak & Shrimp)": [
+    "hibachi special",
+    "special hibachi",
+    "chicken steak shrimp hibachi",
+    "特制铁板"
+  ],
+  "Daily Special #1 Broccoli Chicken & Shrimp with Fried Rice": [
+    "daily special one",
+    "special one",
+    "number one special",
+    "broccoli chicken shrimp special"
+  ],
+  "Daily Special #2 Chicken & Shrimp Lo Mein with Fried Rice": [
+    "daily special two",
+    "special two",
+    "number two special",
+    "chicken shrimp lo mein special"
+  ],
+  "Daily Special #3 Black Pepper Chicken with Fried Rice": [
+    "daily special three black pepper chicken",
+    "black pepper chicken special"
+  ],
+  "Daily Special #3 Salt Pepper Chicken with Fried Rice": [
+    "daily special three salt pepper chicken",
+    "salt pepper chicken special"
+  ],
+  "Chicken Wings (4) with Lo Mein": [
+    "wings with lo mein",
+    "four wings lo mein"
+  ],
+  "Chicken Wings (4) with Broccoli": [
+    "wings with broccoli",
+    "four wings broccoli"
+  ],
+  "Chicken Wings (4) with Vegetable": [
+    "wings with vegetables",
+    "four wings vegetable"
+  ],
+  "Chicken Wings (4) with Vegetable Lo Mein": [
+    "wings with vegetable lo mein"
+  ],
+  "Chicken Wings (4) with Pork Lo Mein": [
+    "wings with pork lo mein"
+  ],
+  "Chicken Wings (4) with Chicken Lo Mein": [
+    "wings with chicken lo mein"
+  ],
+  "Chicken Wings (4) with Beef Lo Mein": [
+    "wings with beef lo mein"
+  ],
+  "Chicken Wings (4) with Shrimp Lo Mein": [
+    "wings with shrimp lo mein"
+  ],
+  "Teriyaki Chicken with Fried Rice": [
+    "teriyaki combo fried rice",
+    "照烧鸡炒饭套餐"
+  ],
+  "Teriyaki Chicken with Lo Mein": [
+    "teriyaki combo lo mein",
+    "照烧鸡捞面套餐"
+  ],
+  "lunch numbering": [
+    "l one",
+    "l two",
+    "lunch one",
+    "lunch special one"
+  ],
+  "Shrimp Chow Mein (Lunch)": [
+    "lunch shrimp chow mein",
+    "l1 shrimp chow mein"
+  ],
+  "Chicken Chow Mein (Lunch)": [
+    "lunch chicken chow mein",
+    "l1 chicken chow mein"
+  ],
+  "Pepper Steak (Lunch)": [
+    "lunch pepper steak",
+    "l2"
+  ],
+  "Beef with Broccoli (Lunch)": [
+    "lunch beef broccoli",
+    "l3"
+  ],
+  "Chicken with Broccoli (Lunch)": [
+    "lunch chicken broccoli",
+    "l4"
+  ],
+  "Roast Pork with Broccoli (Lunch)": [
+    "lunch pork broccoli",
+    "l5"
+  ],
+  "Shrimp with Garlic Sauce (Lunch)": [
+    "lunch shrimp garlic sauce",
+    "l6"
+  ],
+  "Moo Goo Gai Pan (Lunch)": [
+    "lunch moo goo gai pan",
+    "l9"
+  ],
+  "Shrimp Lo Mein (Lunch)": [
+    "lunch shrimp lo mein",
+    "l10 shrimp"
+  ],
+  "Beef Lo Mein (Lunch)": [
+    "lunch beef lo mein",
+    "l10 beef"
+  ],
+  "Roast Pork Lo Mein (Lunch)": [
+    "lunch pork lo mein",
+    "l11 pork"
+  ],
+  "Chicken Lo Mein (Lunch)": [
+    "lunch chicken lo mein",
+    "l11 chicken"
+  ],
+  "Chicken with Garlic Sauce (Lunch)": [
+    "lunch chicken garlic sauce",
+    "l13"
+  ],
+  "Beef with Garlic Sauce (Lunch)": [
+    "lunch beef garlic sauce",
+    "l14"
+  ],
+  "General Tso's Chicken (Lunch)": [
+    "lunch general tso's chicken",
+    "l15"
+  ],
+  "Sesame Chicken (Lunch)": [
+    "lunch sesame chicken",
+    "l16"
+  ],
+  "Chicken with Cashew Nuts (Lunch)": [
+    "lunch cashew chicken",
+    "l17"
+  ],
+  "Sweet & Sour Pork (Lunch)": [
+    "lunch sweet sour pork",
+    "l18 pork"
+  ],
+  "Sweet & Sour Chicken (Lunch)": [
+    "lunch sweet sour chicken",
+    "l18 chicken"
+  ],
+  "Mixed Vegetables (Lunch)": [
+    "lunch mixed vegetables",
+    "l19"
+  ],
+  "Shrimp with Mixed Vegetables (Lunch)": [
+    "lunch shrimp mixed vegetables",
+    "l20"
+  ],
+  "Beef with Mixed Vegetables (Lunch)": [
+    "lunch beef mixed vegetables",
+    "l21"
+  ],
+  "Beef with Snow Peas (Lunch)": [
+    "lunch beef snow peas",
+    "l22"
+  ],
+  "Broccoli with Garlic Sauce (Lunch)": [
+    "lunch broccoli garlic sauce",
+    "l23"
+  ],
+  "Hunan Beef (Lunch)": [
+    "lunch hunan beef",
+    "l24 hunan"
+  ],
+  "Szechuan Beef (Lunch)": [
+    "lunch szechuan beef",
+    "lunch sichuan beef",
+    "l24 szechuan"
+  ],
+  "Curry Chicken (Lunch)": [
+    "lunch curry chicken",
+    "l25"
+  ],
+  "Boneless Spare Ribs (Lunch)": [
+    "lunch boneless ribs",
+    "l26"
+  ],
+  "Kung Po Chicken (Lunch)": [
+    "lunch kung pao chicken",
+    "lunch kung po chicken",
+    "l27"
+  ],
+  "Honey Boneless Chicken (Lunch)": [
+    "lunch honey boneless chicken",
+    "l28"
+  ],
+  "Lo Mein vs Chow Mein": [],
+  "Szechuan vs Hunan": [],
+  "Sesame Chicken vs General Tso's Chicken": [],
+  "Kung Pao Chicken vs Chicken with Garlic Sauce": [],
+  "Chicken Wings with Lo Mein vs Chicken Lo Mein": [],
+  "Hibachi Chicken & Steak vs Hibachi Special": [],
+  "If the caller uses a common alias that maps clearly to one menu item, normalize it to the canonical item name.": [],
+  "If the alias could match multiple menu items, ask a short clarification question.": [],
+  "If the caller mentions lunch, combo, hibachi, or handwritten specials, preserve that context during clarification.": [],
+  "If the agent is still uncertain after two attempts, transfer to staff.": []
+}
