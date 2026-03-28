@@ -24,12 +24,15 @@ from .schemas import (
 )
 
 
-app = FastAPI(title="China King Backend", version="0.1.0")
+APP_VERSION = "0.1.1"
+
+
+app = FastAPI(title="China King Backend", version=APP_VERSION)
 
 
 @app.get("/health")
 def health() -> dict:
-    return {"ok": True}
+    return {"ok": True, "version": APP_VERSION}
 
 
 @app.post("/resolve_menu_item")
@@ -76,7 +79,7 @@ def post_call_endpoint(payload: PostCallRequest) -> dict:
 
 @app.get("/retell/webhook")
 def retell_webhook_health() -> dict:
-    return {"ok": True, "status": "retell_webhook_ready"}
+    return {"ok": True, "status": "retell_webhook_ready", "version": APP_VERSION}
 
 
 @app.post("/retell/webhook")
