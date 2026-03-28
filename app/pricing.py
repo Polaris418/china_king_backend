@@ -4,6 +4,9 @@ from .catalog import build_indexes, normalize_text
 from .matcher import resolve_menu_item
 
 
+TAX_RATE = 0.07
+
+
 def choose_variant(item: dict, requested_size: str | None) -> tuple[str | None, float | None, str | None]:
     variants = item["variants"]
     if not variants:
@@ -79,27 +82,37 @@ def quote_order(items: list[dict], order_type: str | None = None, pickup_time: s
     if not validation["valid"]:
         return {
             **validation,
+            "subtotal_price": None,
+            "tax_rate": TAX_RATE,
+            "tax_amount": None,
             "total_price": None,
             "line_items": [],
         }
 
     line_items = []
-    total = 0.0
+    subtotal = 0.0
     for item in validation["resolved_items"]:
-        subtotal = round(item["unit_price"] * item["qty"], 2)
-        total += subtotal
+        item_subtotal = round(item["unit_price"] * item["qty"], 2)
+        subtotal += item_subtotal
         line_items.append(
             {
                 "canonical_item": item["canonical_item"],
                 "qty": item["qty"],
                 "size": item["size"],
                 "unit_price": item["unit_price"],
-                "subtotal": subtotal,
+                "subtotal": item_subtotal,
             }
         )
+
+    subtotal = round(subtotal, 2)
+    tax_amount = round(subtotal * TAX_RATE, 2)
+    total = round(subtotal + tax_amount, 2)
 
     return {
         **validation,
         "line_items": line_items,
-        "total_price": round(total, 2),
+        "subtotal_price": subtotal,
+        "tax_rate": TAX_RATE,
+        "tax_amount": tax_amount,
+        "total_price": total,
     }
