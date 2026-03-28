@@ -30,45 +30,69 @@ APP_VERSION = "0.1.1"
 app = FastAPI(title="China King Backend", version=APP_VERSION)
 
 
+async def _unwrap_tool_payload(request: Request) -> dict:
+    try:
+        payload = await request.json()
+    except Exception:
+        return {}
+    if isinstance(payload, dict) and isinstance(payload.get("args"), dict):
+        return payload["args"]
+    return payload
+
+
 @app.get("/health")
 def health() -> dict:
     return {"ok": True, "version": APP_VERSION}
 
 
 @app.post("/resolve_menu_item")
-def resolve_menu_item_endpoint(payload: ResolveMenuItemRequest) -> dict:
+async def resolve_menu_item_endpoint(request: Request) -> dict:
+    raw = await _unwrap_tool_payload(request)
+    payload = ResolveMenuItemRequest.model_validate(raw)
     return resolve_menu_item(payload.text, category_hint=payload.category_hint, limit=payload.limit)
 
 
 @app.post("/validate_order")
-def validate_order_endpoint(payload: ValidateOrderRequest) -> dict:
+async def validate_order_endpoint(request: Request) -> dict:
+    raw = await _unwrap_tool_payload(request)
+    payload = ValidateOrderRequest.model_validate(raw)
     items = [item.model_dump() for item in payload.items]
     return validate_order(items, order_type=payload.order_type, pickup_time=payload.pickup_time)
 
 
 @app.post("/quote_order")
-def quote_order_endpoint(payload: QuoteOrderRequest) -> dict:
+async def quote_order_endpoint(request: Request) -> dict:
+    raw = await _unwrap_tool_payload(request)
+    payload = QuoteOrderRequest.model_validate(raw)
     items = [item.model_dump() for item in payload.items]
     return quote_order(items, order_type=payload.order_type, pickup_time=payload.pickup_time)
 
 
 @app.post("/orders/save")
-def save_order_endpoint(payload: PlaceOrderRequest) -> dict:
+async def save_order_endpoint(request: Request) -> dict:
+    raw = await _unwrap_tool_payload(request)
+    payload = PlaceOrderRequest.model_validate(raw)
     return save_order(payload.model_dump())
 
 
 @app.post("/orders/noop")
-def notify_order_endpoint(payload: NotifyOrderRequest) -> dict:
+async def notify_order_endpoint(request: Request) -> dict:
+    raw = await _unwrap_tool_payload(request)
+    payload = NotifyOrderRequest.model_validate(raw)
     return notify_order(payload.model_dump())
 
 
 @app.post("/tools/transfer_call")
-def transfer_call_endpoint(payload: TransferCallRequest) -> dict:
+async def transfer_call_endpoint(request: Request) -> dict:
+    raw = await _unwrap_tool_payload(request)
+    payload = TransferCallRequest.model_validate(raw)
     return transfer_call(payload.model_dump())
 
 
 @app.post("/sms/init")
-def init_sms_order_endpoint(payload: InitSmsOrderRequest) -> dict:
+async def init_sms_order_endpoint(request: Request) -> dict:
+    raw = await _unwrap_tool_payload(request)
+    payload = InitSmsOrderRequest.model_validate(raw)
     return init_sms_order(payload.model_dump())
 
 
