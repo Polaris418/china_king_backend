@@ -78,7 +78,12 @@ def validate_order(items: list[dict], order_type: str | None = None, pickup_time
 
 
 def quote_order(items: list[dict], order_type: str | None = None, pickup_time: str | None = None) -> dict:
-    validation = validate_order(items, order_type=order_type, pickup_time=pickup_time)
+    relaxed_order_type = order_type
+    if order_type == "takeout" and not pickup_time:
+        relaxed_order_type = None
+    validation = validate_order(items, order_type=relaxed_order_type, pickup_time=pickup_time)
+    validation["order_type"] = order_type
+    validation["pickup_time"] = pickup_time
     if not validation["valid"]:
         return {
             **validation,
