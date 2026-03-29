@@ -27,7 +27,7 @@ from .schemas import (
 )
 
 
-APP_VERSION = "0.1.5"
+APP_VERSION = "0.1.6"
 
 
 app = FastAPI(title="China King Backend", version=APP_VERSION)

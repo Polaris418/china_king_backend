@@ -7,6 +7,116 @@ from .matcher import resolve_menu_item
 TAX_RATE = 0.07
 
 
+VARIANT_ALIASES = {
+    "pt": {
+        "pt",
+        "pint",
+        "paint",
+        "point",
+        "points",
+        "hint",
+        "hind",
+        "hunt",
+        "first",
+        "first one",
+        "the first",
+        "the first one",
+    },
+    "qt": {
+        "qt",
+        "quart",
+        "court",
+        "quard",
+        "quote",
+        "accord",
+        "second",
+        "second one",
+        "the second",
+        "the second one",
+    },
+    "regular": {
+        "regular",
+        "plain",
+        "normal",
+    },
+    "small": {
+        "small",
+        "sm",
+    },
+    "large": {
+        "large",
+        "lg",
+        "big",
+    },
+    "extra large": {
+        "extra large",
+        "x large",
+        "xl",
+    },
+}
+
+
+def canonicalize_item_name(item_name: str) -> str:
+    catalog_by_name, _, _, _ = build_indexes()
+    resolved = resolve_menu_item(item_name)
+    canonical_item = resolved.get("canonical_item")
+    if canonical_item:
+        return canonical_item
+
+    candidates = resolved.get("candidates", [])
+    if resolved.get("match_type") == "concept_only" and len(candidates) == 1:
+        concept_name = candidates[0]["name"]
+        concept_key = normalize_text(concept_name)
+        exactish_matches = []
+        for catalog_name in catalog_by_name:
+            catalog_key = normalize_text(catalog_name)
+            if (
+                catalog_key == concept_key
+                or catalog_key.startswith(f"{concept_key} ")
+                or f" {concept_key} " in f" {catalog_key} "
+            ):
+                exactish_matches.append(catalog_name)
+        if len(exactish_matches) == 1:
+            return exactish_matches[0]
+
+    return item_name
+
+
+def canonicalize_variant_label(item: dict, requested_size: str | None) -> str | None:
+    if not requested_size:
+        return requested_size
+
+    normalized_requested = normalize_text(requested_size)
+    variants = item["variants"]
+    normalized_variants = {normalize_text(label): label for label in variants}
+
+    if normalized_requested in normalized_variants:
+        return normalized_variants[normalized_requested]
+
+    for canonical_label, aliases in VARIANT_ALIASES.items():
+        if normalized_requested not in aliases:
+            continue
+        for label in variants:
+            if normalize_text(label) == canonical_label:
+                return label
+
+    return requested_size
+
+
+def canonicalize_order_items(items: list[dict]) -> list[dict]:
+    catalog_by_name, _, _, _ = build_indexes()
+    normalized_items: list[dict] = []
+    for raw_item in items:
+        normalized_item = dict(raw_item)
+        canonical_name = canonicalize_item_name(raw_item["item_name"])
+        normalized_item["item_name"] = canonical_name
+        item = catalog_by_name.get(canonical_name)
+        if item:
+            normalized_item["size"] = canonicalize_variant_label(item, raw_item.get("size"))
+        normalized_items.append(normalized_item)
+    return normalized_items
+
+
 def choose_variant(item: dict, requested_size: str | None) -> tuple[str | None, float | None, str | None]:
     variants = item["variants"]
     if not variants:
@@ -25,6 +135,7 @@ def choose_variant(item: dict, requested_size: str | None) -> tuple[str | None, 
 
 def validate_order(items: list[dict], order_type: str | None = None, pickup_time: str | None = None) -> dict:
     catalog_by_name, _, _, _ = build_indexes()
+    items = canonicalize_order_items(items)
     resolved_items: list[dict] = []
     missing_required: list[str] = []
     invalid_fields: list[str] = []
