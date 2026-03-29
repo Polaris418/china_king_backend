@@ -1,5 +1,8 @@
 from __future__ import annotations
 
+from datetime import datetime
+from zoneinfo import ZoneInfo
+
 from fastapi import FastAPI, Request
 
 from .call_integration import (
@@ -24,7 +27,7 @@ from .schemas import (
 )
 
 
-APP_VERSION = "0.1.4"
+APP_VERSION = "0.1.5"
 
 
 app = FastAPI(title="China King Backend", version=APP_VERSION)
@@ -43,6 +46,27 @@ async def _unwrap_tool_payload(request: Request) -> dict:
 @app.get("/health")
 def health() -> dict:
     return {"ok": True, "version": APP_VERSION}
+
+
+@app.get("/current_time")
+def current_time_get(timezone: str = "America/New_York") -> dict:
+    now = datetime.now(ZoneInfo(timezone))
+    return {
+        "timezone": timezone,
+        "current_time": now.strftime("%Y-%m-%d %I:%M %p"),
+        "hour_24": now.hour,
+        "minute": now.minute,
+        "is_lunch_special_time": 11 <= now.hour < 15,
+    }
+
+
+@app.post("/current_time")
+async def current_time_post(request: Request) -> dict:
+    raw = await _unwrap_tool_payload(request)
+    timezone = "America/New_York"
+    if isinstance(raw, dict) and isinstance(raw.get("timezone"), str) and raw["timezone"].strip():
+        timezone = raw["timezone"].strip()
+    return current_time_get(timezone=timezone)
 
 
 @app.post("/resolve_menu_item")
