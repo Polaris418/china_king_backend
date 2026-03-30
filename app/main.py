@@ -29,7 +29,7 @@ from .schemas import (
 )
 
 
-APP_VERSION = "0.1.7"
+APP_VERSION = "0.1.8"
 
 
 app = FastAPI(title="China King Backend", version=APP_VERSION)
