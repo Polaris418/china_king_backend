@@ -173,8 +173,9 @@ def validate_order(items: list[dict], order_type: str | None = None, pickup_time
             }
         )
 
-    if order_type == "takeout" and not pickup_time:
-        missing_required.append("Pickup time is required for takeout orders.")
+    # Phone takeout orders may use the default ready window instead of a caller-specified pickup time.
+    # Keep pickup_time optional so the flow can quote and place standard 10-30 minute pickup orders
+    # without forcing an exact time.
 
     valid = not unresolved_items and not missing_required and not invalid_fields
     return {
