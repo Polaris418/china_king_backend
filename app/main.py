@@ -13,6 +13,7 @@ from .call_integration import (
     save_order,
     transfer_call,
 )
+from .context_router import resolve_order_context
 from .matcher import resolve_menu_item
 from .pricing import quote_order, validate_order
 from .schemas import (
@@ -21,6 +22,7 @@ from .schemas import (
     PlaceOrderRequest,
     PostCallRequest,
     QuoteOrderRequest,
+    ResolveOrderContextRequest,
     ResolveMenuItemRequest,
     TransferCallRequest,
     ValidateOrderRequest,
@@ -74,6 +76,18 @@ async def resolve_menu_item_endpoint(request: Request) -> dict:
     raw = await _unwrap_tool_payload(request)
     payload = ResolveMenuItemRequest.model_validate(raw)
     return resolve_menu_item(payload.text, category_hint=payload.category_hint, limit=payload.limit)
+
+
+@app.post("/resolve_order_context")
+async def resolve_order_context_endpoint(request: Request) -> dict:
+    raw = await _unwrap_tool_payload(request)
+    payload = ResolveOrderContextRequest.model_validate(raw)
+    return resolve_order_context(
+        payload.text,
+        category_hint=payload.category_hint,
+        order_type=payload.order_type,
+        current_time=payload.current_time,
+    )
 
 
 @app.post("/validate_order")

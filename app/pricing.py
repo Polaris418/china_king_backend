@@ -56,30 +56,113 @@ VARIANT_ALIASES = {
 }
 
 
-def canonicalize_item_name(item_name: str) -> str:
+def _find_exactish_catalog_matches(concept_name: str, catalog_by_name: dict[str, dict]) -> list[str]:
+    concept_key = normalize_text(concept_name)
+    exact_matches = []
+    prefix_matches = []
+    contains_matches = []
+    for catalog_name in catalog_by_name:
+        catalog_key = normalize_text(catalog_name)
+        if catalog_key == concept_key:
+            exact_matches.append(catalog_name)
+        elif catalog_key.startswith(f"{concept_key} "):
+            prefix_matches.append(catalog_name)
+        elif f" {concept_key} " in f" {catalog_key} ":
+            contains_matches.append(catalog_name)
+    if exact_matches:
+        return exact_matches
+    if prefix_matches:
+        return prefix_matches
+    return contains_matches
+
+
+def _resolve_concept_alias_to_catalog_item(
+    concept_name: str,
+    catalog_by_name: dict[str, dict],
+) -> tuple[str | None, str | None]:
+    exactish_matches = _find_exactish_catalog_matches(concept_name, catalog_by_name)
+    if len(exactish_matches) == 1:
+        return exactish_matches[0], None
+
+    lowered = concept_name.lower()
+    if " with " in lowered:
+        base_name, variant_tail = concept_name.rsplit(" with ", 1)
+        base_matches = _find_exactish_catalog_matches(base_name, catalog_by_name)
+        if len(base_matches) == 1:
+            base_item_name = base_matches[0]
+            base_item = catalog_by_name[base_item_name]
+            variant_candidates = [
+                f"with {variant_tail}".strip(),
+                variant_tail.strip(),
+            ]
+            normalized_variants = {
+                normalize_text(label): label for label in base_item.get("variants", {})
+            }
+            for variant_candidate in variant_candidates:
+                label = normalized_variants.get(normalize_text(variant_candidate))
+                if label:
+                    return base_item_name, label
+
+    return None, None
+
+
+def _infer_preferred_category_from_text(item_name: str) -> str | None:
+    normalized = normalize_text(item_name)
+    if "lunch special" in normalized:
+        return "LUNCH SPECIAL"
+    if "combo" in normalized or "combination dinner" in normalized or "dinner special" in normalized:
+        return "COMBINATION DINNER"
+    return None
+
+
+def _prefer_category_variant_for_item(
+    item_name: str,
+    preferred_category: str | None,
+    catalog_by_name: dict[str, dict],
+) -> str | None:
+    if not preferred_category:
+        return None
+
+    preferred = normalize_text(preferred_category)
+    item_key = normalize_text(item_name)
+    for catalog_name, catalog_item in catalog_by_name.items():
+        if normalize_text(catalog_item["category"]) != preferred:
+            continue
+        catalog_key = normalize_text(catalog_name)
+        if (
+            catalog_key == item_key
+            or catalog_key.startswith(f"{item_key} ")
+            or item_key.startswith(f"{catalog_key} ")
+            or f" {item_key} " in f" {catalog_key} "
+        ):
+            return catalog_name
+    return None
+
+
+def canonicalize_item_request(item_name: str, requested_size: str | None = None) -> tuple[str, str | None]:
     catalog_by_name, _, _, _ = build_indexes()
     resolved = resolve_menu_item(item_name)
     canonical_item = resolved.get("canonical_item")
+    preferred_category = _infer_preferred_category_from_text(item_name)
     if canonical_item:
-        return canonical_item
+        preferred_variant = _prefer_category_variant_for_item(canonical_item, preferred_category, catalog_by_name)
+        if preferred_variant:
+            canonical_item = preferred_variant
+        return canonical_item, requested_size
 
     candidates = resolved.get("candidates", [])
     if resolved.get("match_type") == "concept_only" and len(candidates) == 1:
         concept_name = candidates[0]["name"]
-        concept_key = normalize_text(concept_name)
-        exactish_matches = []
-        for catalog_name in catalog_by_name:
-            catalog_key = normalize_text(catalog_name)
-            if (
-                catalog_key == concept_key
-                or catalog_key.startswith(f"{concept_key} ")
-                or f" {concept_key} " in f" {catalog_key} "
-            ):
-                exactish_matches.append(catalog_name)
-        if len(exactish_matches) == 1:
-            return exactish_matches[0]
+        exact_catalog_item, implied_variant = _resolve_concept_alias_to_catalog_item(concept_name, catalog_by_name)
+        if exact_catalog_item:
+            return exact_catalog_item, requested_size or implied_variant
 
-    return item_name
+    return item_name, requested_size
+
+
+def canonicalize_item_name(item_name: str) -> str:
+    canonical_name, _ = canonicalize_item_request(item_name)
+    return canonical_name
 
 
 def canonicalize_variant_label(item: dict, requested_size: str | None) -> str | None:
@@ -108,11 +191,14 @@ def canonicalize_order_items(items: list[dict]) -> list[dict]:
     normalized_items: list[dict] = []
     for raw_item in items:
         normalized_item = dict(raw_item)
-        canonical_name = canonicalize_item_name(raw_item["item_name"])
+        canonical_name, canonical_requested_size = canonicalize_item_request(
+            raw_item["item_name"],
+            raw_item.get("size"),
+        )
         normalized_item["item_name"] = canonical_name
         item = catalog_by_name.get(canonical_name)
         if item:
-            normalized_item["size"] = canonicalize_variant_label(item, raw_item.get("size"))
+            normalized_item["size"] = canonicalize_variant_label(item, canonical_requested_size)
         normalized_items.append(normalized_item)
     return normalized_items
 

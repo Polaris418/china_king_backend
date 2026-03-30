@@ -716,56 +716,94 @@
     "broccoli chicken and shrimp with fried rice",
     "chicken and broccoli and shrimp with fried rice",
     "broccoli chicken shrimp with fried rice",
-    "chicken broccoli and shrimp with fried rice"
+    "chicken broccoli and shrimp with fried rice",
+    "broccoli chicken and shrimp fried rice",
+    "chicken and broccoli with shrimp fried rice",
+    "broccoli chicken with shrimp fried rice",
+    "chicken and broccoli shrimp fried rice",
+    "broccoli chicken shrimp fried rice",
+    "broccoli chicken and shrimp over fried rice"
   ],
   "Daily Special #2 Chicken & Shrimp Lo Mein with Fried Rice": [
     "daily special two",
     "special two",
     "number two special",
-    "chicken shrimp lo mein special"
+    "chicken shrimp lo mein special",
+    "chicken and shrimp lo mein with fried rice",
+    "chicken shrimp lo mein with fried rice",
+    "chicken and shrimp lo mein fried rice"
   ],
   "Daily Special #3 Black Pepper Chicken with Fried Rice": [
     "daily special three black pepper chicken",
-    "black pepper chicken special"
+    "black pepper chicken special",
+    "black pepper chicken with fried rice",
+    "daily special three with fried rice"
   ],
   "Daily Special #3 Salt Pepper Chicken with Fried Rice": [
     "daily special three salt pepper chicken",
-    "salt pepper chicken special"
+    "salt pepper chicken special",
+    "salt pepper chicken with fried rice",
+    "salt and pepper chicken with fried rice"
   ],
   "Chicken Wings (4) with Lo Mein": [
     "wings with lo mein",
-    "four wings lo mein"
+    "four wings lo mein",
+    "4 wings with lo mein",
+    "4 wings lo mein",
+    "chicken wings with lo mein"
   ],
   "Chicken Wings (4) with Broccoli": [
     "wings with broccoli",
-    "four wings broccoli"
+    "four wings broccoli",
+    "4 wings with broccoli",
+    "chicken wings with broccoli"
   ],
   "Chicken Wings (4) with Vegetable": [
     "wings with vegetables",
-    "four wings vegetable"
+    "four wings vegetable",
+    "4 wings with vegetable",
+    "4 wings with vegetables",
+    "chicken wings with vegetable",
+    "chicken wings with vegetables"
   ],
   "Chicken Wings (4) with Vegetable Lo Mein": [
-    "wings with vegetable lo mein"
+    "wings with vegetable lo mein",
+    "4 wings with vegetable lo mein",
+    "chicken wings with vegetable lo mein"
   ],
   "Chicken Wings (4) with Pork Lo Mein": [
-    "wings with pork lo mein"
+    "wings with pork lo mein",
+    "4 wings with pork lo mein",
+    "chicken wings with pork lo mein"
   ],
   "Chicken Wings (4) with Chicken Lo Mein": [
-    "wings with chicken lo mein"
+    "wings with chicken lo mein",
+    "4 wings with chicken lo mein",
+    "chicken wings with chicken lo mein"
   ],
   "Chicken Wings (4) with Beef Lo Mein": [
-    "wings with beef lo mein"
+    "wings with beef lo mein",
+    "4 wings with beef lo mein",
+    "chicken wings with beef lo mein"
   ],
   "Chicken Wings (4) with Shrimp Lo Mein": [
-    "wings with shrimp lo mein"
+    "wings with shrimp lo mein",
+    "4 wings with shrimp lo mein",
+    "chicken wings with shrimp lo mein"
   ],
   "Teriyaki Chicken with Fried Rice": [
     "teriyaki combo fried rice",
-    "照烧鸡炒饭套餐"
+    "照烧鸡炒饭套餐",
+    "teriyaki chicken fried rice",
+    "tc with fried rice",
+    "tc fried rice"
   ],
   "Teriyaki Chicken with Lo Mein": [
     "teriyaki combo lo mein",
-    "照烧鸡捞面套餐"
+    "照烧鸡捞面套餐",
+    "teriyaki chicken lo mein",
+    "tc with lo mein",
+    "tc lo mein"
   ],
   "lunch numbering": [
     "l one",

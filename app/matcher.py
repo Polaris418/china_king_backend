@@ -61,18 +61,28 @@ def resolve_menu_item(text: str, category_hint: str | None = None, limit: int = 
     for item in catalog:
         if category_hint and normalize_text(item["category"]) != normalize_text(category_hint):
             continue
+        name_key = normalize_text(item["name"])
         score = max(
-            fuzz.token_set_ratio(query, normalize_text(item["name"])),
-            fuzz.partial_ratio(query, normalize_text(item["name"])),
+            fuzz.token_set_ratio(query, name_key),
+            fuzz.partial_ratio(query, name_key),
         )
+        if name_key == query:
+            score += 5
+        elif name_key.startswith(f"{query} "):
+            score += 2
         scored.append((float(score), item))
 
     if not scored and category_hint:
         for item in catalog:
+            name_key = normalize_text(item["name"])
             score = max(
-                fuzz.token_set_ratio(query, normalize_text(item["name"])),
-                fuzz.partial_ratio(query, normalize_text(item["name"])),
+                fuzz.token_set_ratio(query, name_key),
+                fuzz.partial_ratio(query, name_key),
             )
+            if name_key == query:
+                score += 5
+            elif name_key.startswith(f"{query} "):
+                score += 2
             scored.append((float(score), item))
 
     scored.sort(key=lambda x: x[0], reverse=True)

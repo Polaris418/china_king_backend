@@ -30,6 +30,13 @@ class QuoteOrderRequest(ValidateOrderRequest):
     pass
 
 
+class ResolveOrderContextRequest(BaseModel):
+    text: str = Field(..., min_length=1)
+    category_hint: str | None = None
+    order_type: Literal["takeout", "dine-in"] | None = "takeout"
+    current_time: str | None = None
+
+
 class PlaceOrderRequest(BaseModel):
     storeId: str = Field(default=DEFAULT_STORE_ID, min_length=1)
     customerName: str = Field(default="Phone Order", min_length=1)
